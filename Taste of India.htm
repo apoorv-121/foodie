@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Taste of India</title>
+<style>
+.table-dark{
+  align-content: center;
+  margin-top: 100px;
+  margin-left: 100px;
+  background-color: black;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 300px;
+}
+div{
+  background-color: rgb(37, 36, 35);
+  display: inline-block;
+}
+
+.outer .offer p{
+ animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+.slidein {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+
+  to {
+    margin-left:0%;
+    width:100%;
+  }
+}
+
+img{
+  display: inline-block;
+}
+.inner1{
+
+  /*margin-left: 50px;*/
+  /*margin-top: -5px;*/
+  /*border-color: aquamarine;*/
+  /*border-width: 2px;*/
+  /*padding-top: 20px;
+  position: absolute;
+  height: 28vh;
+  width: 33vw;*/
+}
+.div2{
+  margin-top: 50px;
+  border: 5px solid black;
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+
+}
+/*.table table-hover .table-secondary .btn btn-outline-danger: hover{
+background-color: red;
+color: white;
+}*/
+.div1 p{
+  /*display: inline-block;*/
+  margin-left: 10px;
+  /*padding-top: -400px;*/
+  /*text-overflow: ellipsis;*/
+}
+.offer{
+  color: yellowgreen;
+  margin-left: 50px;
+  margin-top: -5px;
+  /*border-color: aquamarine;*/
+  /*border-width: 2px;*/
+  padding-top: 20px;
+  position: absolute;
+  height: 28vh;
+  width: 33%;
+
+  /*width: auto;*/
+}
+body {
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-image: url("https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80");
+  /*opacity: 0.5;*/
+
+background-attachment: fixed;
+  background-size: 100% 100%;
+  border-spacing: 0px;
+}
+.outer{
+  min-height: 200px;
+  min-width: 1600px;
+  margin-top: 20px;
+  display: inline-block;
+  width: 100vw;
+  /*margin-left: 410px;*/
+  height: 30vh;
+  background-color: rgba(0, 0, 0,0.8);
+  border-style: ridge;
+  /*border: 5px solid black;*/
+  border-radius: 5px;
+  /*margin-right: 20px;*/
+  margin-left: 3px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: white;
+  /*position: relative;*/
+  /*padding-left: 300px;*/
+font-family: cursive;
+/*lighting-color: orange;*/
+/*line-height: 20px;*/
+padding-top: 0px;
+
+}
+</style>
+<body>
+<!-- <div class="div2"> -->
+  
+<!-- </div> -->
+<!-- <div class="div1"></div> -->
+
+
+  <!-- <div class="div2"> -->
+    
+  <!-- </div> -->
+  <div class="outer">
+    <div class="offer"style="background-color: transparent; position: relative;width: 25vw;height: 15vh;">
+      
+  <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/fidsy2q8gxdmctknidxy" style="height:150px;width: 17vw; border-radius: 10px;margin-bottom: 70px; margin-top: -50px;">
+</div>
+    <!-- <div class="inner1" style="  height: 100px;width: 30vw;margin-top: 50px; ">
+      
+    </div> -->
+    <div class ="inner2" style="background-color: transparent">
+       <span style="font-size: 30px;font-family: cursive;color: orange;"> Taste of India</span><br>
+   <span>Indian, Mughlai, Tandoor</span><br>
+   <span>Gole Market, Hazratganj</span><br>
+   <span>Status -</span>
+   <span style="color: lightgreen;margin-left: 0px;">Open (9:00 AM to 11 PM)</span><br>
+   <!-- <p>Status -</p>-->
+   <!-- <p style="color:red;">Closed</p> -->
+   <span>Rating -&nbsp;</span>
+   <svg style="width: 35px;height: 35px;"xmlns="http://www.w3.org/2000/svg" fill="#E23744" width="14" height="14" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="rbbb40-0 hoSSCx"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.6667 0H3.33333C1.5 0 0 1.5 0 3.33333V16.6667C0 18.5 1.5 20 3.33333 20H16.6667C18.5 20 20 18.5 20 16.6667V3.33333C20 1.5 18.5 0 16.6667 0ZM16.6667 8.75L13.5833 11.5L14.5 15.5833C14.5833 15.9167 14.5 16.1667 14.25 16.4167C14.1667 16.5 14 16.5833 13.8333 16.5833C13.6667 16.5833 13.5833 16.5833 13.4167 16.5L10 14.25L6.58333 16.3333C6.33333 16.5 6 16.5 5.75 16.3333C5.5 16.1667 5.41667 15.8333 5.5 15.5L6.41667 11.5L3.33333 8.75C3.08333 8.5 3 8.25 3.08333 7.91667C3.16667 7.66667 3.41667 7.41667 3.75 7.41667L7.75 7L9.33333 3.16667C9.41667 3 9.58333 2.83333 9.75 2.75C10.0833 2.58333 10.5833 2.75 10.6667 3.16667L12.25 7L16.25 7.33333C16.5833 7.33333 16.8333 7.58333 16.9167 7.83333C17 8.16667 16.9167 8.5 16.6667 8.75Z"></path></svg>
+   <svg style="width: 35px;height: 35px;"xmlns="http://www.w3.org/2000/svg" fill="#E23744" width="14" height="14" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="rbbb40-0 hoSSCx"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.6667 0H3.33333C1.5 0 0 1.5 0 3.33333V16.6667C0 18.5 1.5 20 3.33333 20H16.6667C18.5 20 20 18.5 20 16.6667V3.33333C20 1.5 18.5 0 16.6667 0ZM16.6667 8.75L13.5833 11.5L14.5 15.5833C14.5833 15.9167 14.5 16.1667 14.25 16.4167C14.1667 16.5 14 16.5833 13.8333 16.5833C13.6667 16.5833 13.5833 16.5833 13.4167 16.5L10 14.25L6.58333 16.3333C6.33333 16.5 6 16.5 5.75 16.3333C5.5 16.1667 5.41667 15.8333 5.5 15.5L6.41667 11.5L3.33333 8.75C3.08333 8.5 3 8.25 3.08333 7.91667C3.16667 7.66667 3.41667 7.41667 3.75 7.41667L7.75 7L9.33333 3.16667C9.41667 3 9.58333 2.83333 9.75 2.75C10.0833 2.58333 10.5833 2.75 10.6667 3.16667L12.25 7L16.25 7.33333C16.5833 7.33333 16.8333 7.58333 16.9167 7.83333C17 8.16667 16.9167 8.5 16.6667 8.75Z"></path></svg>
+   <svg style="width: 35px;height: 35px;"xmlns="http://www.w3.org/2000/svg" fill="#E23744" width="14" height="14" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="rbbb40-0 hoSSCx"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.6667 0H3.33333C1.5 0 0 1.5 0 3.33333V16.6667C0 18.5 1.5 20 3.33333 20H16.6667C18.5 20 20 18.5 20 16.6667V3.33333C20 1.5 18.5 0 16.6667 0ZM16.6667 8.75L13.5833 11.5L14.5 15.5833C14.5833 15.9167 14.5 16.1667 14.25 16.4167C14.1667 16.5 14 16.5833 13.8333 16.5833C13.6667 16.5833 13.5833 16.5833 13.4167 16.5L10 14.25L6.58333 16.3333C6.33333 16.5 6 16.5 5.75 16.3333C5.5 16.1667 5.41667 15.8333 5.5 15.5L6.41667 11.5L3.33333 8.75C3.08333 8.5 3 8.25 3.08333 7.91667C3.16667 7.66667 3.41667 7.41667 3.75 7.41667L7.75 7L9.33333 3.16667C9.41667 3 9.58333 2.83333 9.75 2.75C10.0833 2.58333 10.5833 2.75 10.6667 3.16667L12.25 7L16.25 7.33333C16.5833 7.33333 16.8333 7.58333 16.9167 7.83333C17 8.16667 16.9167 8.5 16.6667 8.75Z"></path></svg>
+   <svg style="width: 35px;height: 35px;"xmlns="http://www.w3.org/2000/svg" fill="#E23744" width="14" height="14" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="rbbb40-0 hoSSCx"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.6667 0H3.33333C1.5 0 0 1.5 0 3.33333V16.6667C0 18.5 1.5 20 3.33333 20H16.6667C18.5 20 20 18.5 20 16.6667V3.33333C20 1.5 18.5 0 16.6667 0ZM16.6667 8.75L13.5833 11.5L14.5 15.5833C14.5833 15.9167 14.5 16.1667 14.25 16.4167C14.1667 16.5 14 16.5833 13.8333 16.5833C13.6667 16.5833 13.5833 16.5833 13.4167 16.5L10 14.25L6.58333 16.3333C6.33333 16.5 6 16.5 5.75 16.3333C5.5 16.1667 5.41667 15.8333 5.5 15.5L6.41667 11.5L3.33333 8.75C3.08333 8.5 3 8.25 3.08333 7.91667C3.16667 7.66667 3.41667 7.41667 3.75 7.41667L7.75 7L9.33333 3.16667C9.41667 3 9.58333 2.83333 9.75 2.75C10.0833 2.58333 10.5833 2.75 10.6667 3.16667L12.25 7L16.25 7.33333C16.5833 7.33333 16.8333 7.58333 16.9167 7.83333C17 8.16667 16.9167 8.5 16.6667 8.75Z"></path></svg>
+   <svg style="width: 35px;height: 35px;"xmlns="http://www.w3.org/2000/svg" fill="#E23744" width="14" height="14" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="rbbb40-0 hoSSCx"><linearGradient id="ckqopid7v00q13b6ogr2oza6j" x1="0" x2="100%" y1="0" y2="0"><stop offset="0" stop-color="#E23744"></stop><stop offset="30%" stop-color="#E23744"></stop><stop offset="31%" stop-color="#CFCFCF"></stop><stop offset="1" stop-color="#CFCFCF"></stop></linearGradient><path fill-rule="evenodd" clip-rule="evenodd" d="M16.6667 0H3.33333C1.5 0 0 1.5 0 3.33333V16.6667C0 18.5 1.5 20 3.33333 20H16.6667C18.5 20 20 18.5 20 16.6667V3.33333C20 1.5 18.5 0 16.6667 0ZM16.6667 8.75L13.5833 11.5L14.5 15.5833C14.5833 15.9167 14.5 16.1667 14.25 16.4167C14.1667 16.5 14 16.5833 13.8333 16.5833C13.6667 16.5833 13.5833 16.5833 13.4167 16.5L10 14.25L6.58333 16.3333C6.33333 16.5 6 16.5 5.75 16.3333C5.5 16.1667 5.41667 15.8333 5.5 15.5L6.41667 11.5L3.33333 8.75C3.08333 8.5 3 8.25 3.08333 7.91667C3.16667 7.66667 3.41667 7.41667 3.75 7.41667L7.75 7L9.33333 3.16667C9.41667 3 9.58333 2.83333 9.75 2.75C10.0833 2.58333 10.5833 2.75 10.6667 3.16667L12.25 7L16.25 7.33333C16.5833 7.33333 16.8333 7.58333 16.9167 7.83333C17 8.16667 16.9167 8.5 16.6667 8.75Z" fill="url(#ckqopid7v00q13b6ogr2oza6j)"></path></svg>
+   <span>&nbsp;4.2</span>
+   <!-- <svg style="width: 35px;height: 35px;"xmlns="http://www.w3.org/2000/svg" fill="#CFCFCF" width="18" height="18" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="rbbb40-0 ZGPg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.6667 0H3.33333C1.5 0 0 1.5 0 3.33333V16.6667C0 18.5 1.5 20 3.33333 20H16.6667C18.5 20 20 18.5 20 16.6667V3.33333C20 1.5 18.5 0 16.6667 0ZM16.6667 8.75L13.5833 11.5L14.5 15.5833C14.5833 15.9167 14.5 16.1667 14.25 16.4167C14.1667 16.5 14 16.5833 13.8333 16.5833C13.6667 16.5833 13.5833 16.5833 13.4167 16.5L10 14.25L6.58333 16.3333C6.33333 16.5 6 16.5 5.75 16.3333C5.5 16.1667 5.41667 15.8333 5.5 15.5L6.41667 11.5L3.33333 8.75C3.08333 8.5 3 8.25 3.08333 7.91667C3.16667 7.66667 3.41667 7.41667 3.75 7.41667L7.75 7L9.33333 3.16667C9.41667 3 9.58333 2.83333 9.75 2.75C10.0833 2.58333 10.5833 2.75 10.6667 3.16667L12.25 7L16.25 7.33333C16.5833 7.33333 16.8333 7.58333 16.9167 7.83333C17 8.16667 16.9167 8.5 16.6667 8.75Z"></path></svg> -->
+   <!-- <img src="https://image.flaticon.com/icons/png/512/2107/2107957.png"style="width:40px;height:40px;">
+   <img src="https://image.flaticon.com/icons/png/512/2107/2107957.png"style="width:40px;height:40px;">
+   <img src="https://image.flaticon.com/icons/png/512/2107/2107957.png"style="width:40px;height:40px;">
+   <img src="https://image.flaticon.com/icons/png/512/2107/2107737.png"style="width:40px;height:40px;"> -->
+    </div>
+    <div class="offer"style="background-color: transparent">
+      <span>OFFER</span>
+      <img src="https://image.flaticon.com/icons/png/512/3609/3609073.png"style="width: 50px;height: 50px;display: inline-block;"><p> 
+50% off upto ₹100| Use TRYNEW
+      </p>
+      <!-- <p>
+        
+50% off up to ₹100 | Use code TRYNEW
+      </p> -->
+</div>
+  </div>
+
+<!-- <table class="table-primary">...</table>
+<table class="table-secondary">...</table>
+<table class="table-success">...</table>
+<table class="table-danger">...</table>
+<table class="table-warning">...</table>
+<table class="table-info">...</table>
+<table class="table-light">...</table> -->
+
+<br><br><br><br>
+<table class="table table-hover"style="width: 50%;margin-left: 200px;align-items: center;">
+<tr style="font-size:25px;text-align: center;">
+  <td class="table-dark">Item</td>
+  <td class="table-dark">Price( In Rupees )</td>
+  <td class="table-dark"></td>
+  <!-- <td></td> -->
+  
+<!-- </tr>
+<tr class="table-dark">
+  <td class="table-dark"></td>
+  <td class="table-dark"></td>
+ -->  
+</tr>
+<tr class="table-secondary"style="background-color: green;font-size: 20px;text-align: center;">
+  
+  <td class="table-success">Tandoori Paneer Momo (8 Pieces)</td>
+  <td class="table-success">169</td>
+  <td style="padding-left: 50px;width: 12vw; min-width: 12vw; padding-right: 10px;background-color: aquamarine;"><button type="button" class="btn btn-outline-danger"style="border-width: 3px; padding-left: 1px; margin-right: 3px;min-width: 120px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+</svg>&nbsp;Add to cart</button></td>
+</tr>
+<tr class="table-secondary"style="background-color: green;font-size: 20px;text-align: center;">
+ <td class="table-success">Chicken Chilli Dry</td>
+  <td class="table-success">199</td>
+  <td style="padding-left: 50px;width: 12vw; padding-right: 10px;background-color: aquamarine;"><button type="button" class="btn btn-outline-danger"style="min-width: 120px;border-width: 3px; padding-left: 1px; margin-right: 3px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+</svg>&nbsp;Add to cart</button></td>
+</tr> 
+<tr class="table-secondary"style="background-color: green;font-size: 20px;text-align: center;">
+ <td class="table-success">Spring Rolls</td>
+  <td class="table-success">199</td>
+  <td style="padding-left: 50px;width: 12vw; padding-right: 10px;background-color: aquamarine;"><button type="button" class="btn btn-outline-danger"style="min-width: 120px;border-width: 3px; padding-left: 1px; margin-right: 3px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+</svg>&nbsp;Add to cart</button></td>
+</tr> 
+<tr class="table-secondary"style="background-color: green;font-size: 20px;text-align: center;">
+ <td class="table-success">Crispy Corn</td>
+  <td class="table-success">149</td>
+  <td style="padding-left: 50px;width: 12vw; padding-right: 10px;background-color: aquamarine;"><button type="button" class="btn btn-outline-danger"style="min-width: 120px;border-width: 3px; padding-left: 1px; margin-right: 3px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+</svg>&nbsp;Add to cart</button></td>
+</tr> 
+<tr class="table-secondary"style="background-color: green;font-size: 20px;text-align: center;">
+ <td class="table-success">Kadhai Paneer</td>
+  <td class="table-success">219</td>
+  <td style="padding-left: 50px;width: 12vw; padding-right: 10px;background-color: aquamarine;"><button type="button" class="btn btn-outline-danger"style="border-width: 3px; min-width: 120px;padding-left: 1px; margin-right: 3px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+</svg>&nbsp;Add to cart</button></td>
+</tr> 
+<tr class="table-secondary"style="background-color: green;font-size: 20px;text-align: center;">
+ <td class="table-success">Veg Noodle</td>
+  <td class="table-success">115</td>
+  <td style="padding-left: 50px;width: 12vw; padding-right: 10px;background-color: aquamarine;"><button type="button" class="btn btn-outline-danger"style="border-width: 3px; padding-left: 1px;min-width: 120px; margin-right: 3px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+</svg>&nbsp;Add to cart</button></td>
+</tr> 
+<tr class="table-secondary"style="background-color: green;font-size: 20px;text-align: center;">
+ <td class="table-success">Veg Fried Rice</td>
+  <td class="table-success">125</td>
+  <td style="padding-left: 50px;width: 12vw; padding-right: 10px;background-color: aquamarine;"><button type="button" class="btn btn-outline-danger"style="border-width: 3px; padding-left: 1px;min-width: 120px; margin-right: 3px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+</svg>&nbsp;Add to cart</button></td>
+</tr> 
+<tr class="table-secondary"style="background-color: green;font-size: 20px;text-align: center;">
+ <td class="table-success">Laccha Paratha</td>
+  <td class="table-success">60</td>
+  <td style="padding-left: 50px;width: 12vw; padding-right: 10px;background-color: aquamarine;"><button type="button" class="btn btn-outline-danger"style="border-width: 3px; padding-left: 1px;min-width: 120px; margin-right: 3px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+</svg>&nbsp;Add to cart</button></td>
+</tr> 
+<tr class="table-secondary"style="background-color: green;font-size: 20px;text-align: center;">
+ <td class="table-success">Butter Lemon Fish (8 Pieces)</td>
+  <td class="table-success">249</td>
+  <td style="padding-left: 50px;width: 12vw; padding-right: 10px;background-color: aquamarine;"><button type="button" class="btn btn-outline-danger"style="border-width: 3px; padding-left: 1px;min-width: 120px; margin-right: 3px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+</svg>&nbsp;Add to cart</button></td>
+</tr> 
+<tr class="table-secondary"style="background-color: green;font-size: 20px;text-align: center;">
+ <td class="table-success">Veg Steamed Momo's (8 Pieces</td>
+  <td class="table-success">79</td>
+  <td style="padding-left: 50px;width: 12vw; padding-right: 10px;background-color: aquamarine;"><button type="button" class="btn btn-outline-danger"style="border-width: 3px; padding-left: 1px;min-width: 120px; margin-right: 3px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+</svg>&nbsp;Add to cart</button></td>
+</tr> 
+<tr style="text-align: right;">
+<td></td>
+<td></td>
+  <td ><button style="margin: 0;position: relative;"type="button" class="btn btn-dark">Proceed to Pay</button></td>
+</tr>
+</table>
+
+<!-- On rows -->
+<!-- <tr class="table-primary">...</tr>
+<tr class="table-secondary">...</tr>
+<tr class="table-success">...</tr>
+<tr class="table-danger">...</tr>
+<tr class="table-warning">...</tr>
+<tr class="table-info">...</tr>
+<tr class="table-light">...</tr>
+ -->
+<!-- On cells (`td` or `th`) -->
+<!-- <tr>
+  <td class="table-primary">...</td>
+  <td class="table-secondary">...</td>
+  <td class="table-success">...</td>
+  <td class="table-danger">...</td>
+  <td class="table-warning">...</td>
+  <td class="table-info">...</td>
+  <td class="table-light">...</td>
+</tr>
+ -->
+
+</body>
+</html>
